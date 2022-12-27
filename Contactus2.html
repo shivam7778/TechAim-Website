@@ -1,132 +1,27 @@
 <div class="form-block w-form">
-          <form
-            action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
-            method="POST"
-            id="email-form"
-            name="email-form"
-            data-name="Email Form"
-            method="get"
-            aria-label="Email Form"
-          >
-            <input type="hidden" name="oid" value="00D5g000005G0qW" />
-            <input
-              type="hidden"
-              name="retURL"
-              value="https://www.techaim.in/contact-us"
-            />
-
+            <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" id="email-form" name="email-form" data-name="Email Form" method="get" aria-label="Email Form">
+                <input type=hidden name="oid" value="00D5g000005G0qW">
+                <input type=hidden name="retURL" value="https://www.techaim.in/contact-us">
             <div class="form-wrap">
-              <div class="form-col">
-                <label for="LastName" class="field-label"
-                  >Name<span class="star">*</span></label
-                ><input
-                  type="text"
-                  class="text-field w-input"
-                  maxlength="256"
-                  name="last_name"
-                  data-name="last_name"
-                  placeholder=""
-                  id="last_name"
-                  required=""
-                />
-              </div>
-              <div class="form-col">
-                <label for="company" class="field-label"
-                  >Organization<span class="star">*</span></label
-                ><input
-                  type="text"
-                  class="text-field w-input"
-                  maxlength="256"
-                  name="company"
-                  data-name="company"
-                  placeholder=""
-                  id="company"
-                  required=""
-                />
-              </div>
+              <div class="form-col"><label for="LastName" class="field-label">Name<span class="star">*</span></label><input type="text" class="text-field w-input" maxlength="256" name="last_name" data-name="last_name" placeholder="" id="last_name" required=""></div>
+              <div class="form-col"><label for="Company" class="field-label">Organization<span class="star">*</span></label><input type="text" class="text-field w-input" maxlength="256" name="company" data-name="company" placeholder="" id="company" required=""></div>
             </div>
             <div class="form-wrap">
-              <div class="form-col">
-                <label for="email" class="field-label"
-                  >E-mail ID<span class="star">*</span></label
-                ><input
-                  type="email"
-                  class="text-field w-input"
-                  maxlength="256"
-                  name="email"
-                  data-name="email"
-                  placeholder=""
-                  id="email"
-                  required=""
-                />
-              </div>
-              <div class="form-col">
-                <label for="phone" class="field-label"
-                  >Contact Number<span class="star">*</span></label
-                ><input
-                  type="tel"
-                  class="text-field w-input"
-                  maxlength="256"
-                  name="phone"
-                  data-name="phone"
-                  placeholder=""
-                  id="phone"
-                  required=""
-                />
-              </div>
+              <div class="form-col"><label for="email" class="field-label">E-mail ID<span class="star">*</span></label><input type="email" class="text-field w-input" maxlength="256" name="email" data-name="email" placeholder="" id="email" required=""></div>
+              <div class="form-col"><label for="phone" class="field-label">Contact Number<span class="star">*</span></label><input type="phone" class="text-field w-input" maxlength="40" name="phone" data-name="phone" placeholder="" id="phone" required=""></div>
             </div>
-            <div class="textarea-wrap">
-              <label for="description" class="field-label"
-                >How can we help you?<span class="star">*</span></label
-              ><textarea
-                placeholder=""
-                maxlength="5000"
-                id="description"
-                name="description"
-                data-name="description"
-                required=""
-                class="textarea w-input"
-              ></textarea>
-            </div>
+            <div class="textarea-wrap"><label for="description" class="field-label">How can we help you?<span class="star">*</span></label><textarea placeholder="" maxlength="5000" id="description" name="description" data-name="description" required="" class="textarea w-input"></textarea></div>
             <div class="submit-btn-wrap">
-              <div class="t1 color size">
-                <span class="star">*</span>All fields are mandatory
-              </div>
-              <div
-                data-w-id="563456d5-31ff-eefe-2a2c-6c6fab893cbd"
-                class="button-wrap"
-              >
-                <input
-                  type="submit"
-                  value="Submit"
-                  data-wait="Please wait..."
-                  class="button color w-button"
-                />
-                <div
-                  style="
-                    transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1)
-                      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                    transform-style: preserve-3d;
-                  "
-                  class="btn-hover-effect"
-                ></div>
+              <div class="t1 color size"><span class="star">*</span>All fields are mandatory</div>
+              <div data-w-id="563456d5-31ff-eefe-2a2c-6c6fab893cbd" class="button-wrap"><input type="submit" value="Submit" data-wait="Please wait..." class="button color w-button">
+                <div style="transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="btn-hover-effect"></div>
               </div>
             </div>
           </form>
-          <div
-            class="w-form-done"
-            tabindex="-1"
-            role="region"
-            aria-label="Email Form success"
-          >
+          <div class="w-form-done" tabindex="-1" role="region" aria-label="Email Form success">
             <div>Thank you! Your submission has been received!</div>
           </div>
-          <div
-            class="w-form-fail"
-            tabindex="-1"
-            role="region"
-            aria-label="Email Form failure"
-          >
+          <div class="w-form-fail" tabindex="-1" role="region" aria-label="Email Form failure">
             <div>Oops! Something went wrong while submitting the form.</div>
           </div>
         </div>
